@@ -622,7 +622,7 @@
 #define HEATER_5_MAXTEMP 275
 #define HEATER_6_MAXTEMP 275
 #define HEATER_7_MAXTEMP 275
-#define BED_MAXTEMP      125
+#define BED_MAXTEMP      90
 #define CHAMBER_MAXTEMP  60
 
 /**
@@ -1490,7 +1490,6 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-// #define NOZZLE_TO_PROBE_OFFSET { -40, -13, -1.45 }
 #define NOZZLE_TO_PROBE_OFFSET { -47, -10, -0.435 }
 
 // Most probes should stay away from the edges of the bed, but
